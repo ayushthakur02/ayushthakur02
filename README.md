@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @ayushthakur02
-- 👀 I’m interested in Front End Development
-- 🌱 I’m currently learning React
+- 👋 Hi, I’m @ayushthakur02.
+- 👀 I’m interested in Front End Development.
+- 🌱 I’m currently learning React.
 - 📫 How to reach me - Twitter : thakurayush02
 
 <!---
