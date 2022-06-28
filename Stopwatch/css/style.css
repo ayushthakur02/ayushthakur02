@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+.heading {
+    text-align: center;
+    font-size: 5em;
+    font-family: cursive;
+    margin-top: 10%;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 1000;
+}
+
+.stopwatch {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.timer {
+    margin-top: 3%;
+    font-size: 8em;
+    width: 60%;
+    margin-left: 20%;
+    font-family: 'Teko', sans-serif;
+    
+}
+
+#pause, #start, #reset {
+    margin-top: 3%;
+    margin-bottom: 10%;
+    font-size: 1.5em;
+    margin-right: 1em;
+    padding: .4em .1em;
+    border-radius: .2em;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    width: 16.6%;
+    box-shadow: .1em .1em black;
+}
+
+#pause{
+    background: lightblue;
+    color: black;
+    margin-left: 1em;
+}
+
+#start {
+    background: lightgreen;
+    color: black;
+    margin-right: 1em;
+    padding-left: .3em;
+    padding-right: .3em;
+}
+
+#reset {
+    background: lightpink;
+    color: black;
+}
+
+
+#start:hover {
+    opacity: 0.5;
+}
+
+#pause:hover {
+    opacity: 0.5;
+}
+
+#reset:hover {
+    opacity: 0.5;
+}
